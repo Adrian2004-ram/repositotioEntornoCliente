@@ -23,7 +23,7 @@ do { //Se repite este codigo al menos una vez
 
             volver = false;
 
-            n = prompt("Introduce un número entre 1 y 1000 (pulsa cancelar para salir):");
+            n = prompt("Introduce un número entre 1 y 100 (pulsa cancelar para salir):");
             
             // si se cancelo el cuadro
             // la variable centinenla "salir"
@@ -83,7 +83,7 @@ do { //Se repite este codigo al menos una vez
 
     }
 
-}while(sa1ir==false && confirm("¿Quieres jugar de nuevo?"));
+}while(salir==false && confirm("¿Quieres jugar de nuevo?"));
 
 // mensaje dependiento de lo que eligió el usuario
 
