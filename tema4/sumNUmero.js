@@ -8,8 +8,9 @@ function sumInput() {
 
         var valor = prompt("Dame un valor: ");
 
-        if( isNaN(valor) || valor === "" || valor.toLowerCase() === "escape" ) {
+        if(isNaN(valor) || valor === "" || valor.toLowerCase() === "escape" ) {
             pideMas = false;
+            break;
         } else {
 
             almacen.push(+valor);
